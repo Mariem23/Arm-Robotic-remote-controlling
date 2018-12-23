@@ -1,20 +1,7 @@
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Generated  with TUNIOT FOR ESP8266 Website: Easycoding.tn                                           //
-// Found in https://github.com/gowgear/UDP-Android-ESP                                                 //
-// And also with the help of Arduino Forum found in:                                                   //
-// https://forum.arduino.cc/index.php?topic=6666.0                                                     //
-//                                                                                                     //
-// Adaptation of Borges. A. & Huertas. J.                                                              //
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                TALKING CLIENT                                                       //
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 #include <ESP8266WiFi.h>
 #include <WiFiUdp.h>
 
-unsigned int UDPPort = 2380; // local port to listen on
+unsigned int UDPPort = 2380; // local port to listennon
 char packetBuffer[255]; //buffer to hold incoming packet
 
 String readStrings;
